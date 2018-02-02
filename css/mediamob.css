@@ -1,0 +1,44 @@
+/* Медиа-запросы */
+@media screen and (max-width: 560px) {
+/* Верхушка сайта */
+   .skip{
+       display: block;
+       }
+       header h1{
+         padding-left: 15%;
+         }
+/* Меню */
+     header nav, .main, aside {
+       float: left;
+       margin: 0 0 10%;
+       width: 90%;
+         }
+         header nav li {
+             background: #636363;
+             display: block;
+             margin-bottom: 1%;
+             }
+            header nav li:hover{
+            background: #919191;
+            }
+             header nav a {
+                 display: block;
+                 padding: 5%;
+                 text-align: center;
+                 }
+}
+/* Главный блок */
+.main{
+  clear: both;
+  float: none;
+  margin: auto;
+}
+/* Правый блок */
+aside{
+  float: none;
+  margin: auto;
+}
+/* Карта сайта */
+.sitemap div + div {
+  margin-left: 0;
+}
